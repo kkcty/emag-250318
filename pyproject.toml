@@ -3,13 +3,13 @@ name = "emag-crawler"
 version = "0.0.1"
 description = "eMAG 数据爬取"
 authors = [{ name = "Your Name", email = "you@example.com" }]
-requires-python = "^3.13"
+requires-python = ">=3.13,<3.14"
 dependencies = [
     "scraper-utils @ https://github.com/kuku119/scraper-utils/releases/download/v1.0.6/scraper_utils-1.0.6-py3-none-any.whl",
     "loguru (>=0.7.3,<0.8.0)",
-    "python-dotenv (>=1.0.1,<2.0.0)",
     "playwright (>=1.51.0,<2.0.0)",
     "pydantic (>=2.10.6,<3.0.0)",
+    "pyinstaller (>=6.12.0,<7.0.0)",
 ]
 
 [tool.poetry]
