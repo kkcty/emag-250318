@@ -7,7 +7,11 @@ __pycache__/
 *.py[cod]
 /poetry.lock
 *.env
+*.spec
+/dist
+/build
 
 # other
 /[Tt][Ee][Mm][Pp]*
 desktop.ini
+*.log
