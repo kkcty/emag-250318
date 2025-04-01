@@ -15,3 +15,5 @@ __pycache__/
 /[Tt][Ee][Mm][Pp]*
 desktop.ini
 *.log
+/chrome_data/
+/output/
