@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import re
 from time import perf_counter
 from typing import TYPE_CHECKING
@@ -12,27 +13,27 @@ if TYPE_CHECKING:
 
 
 async def wait_for_networkidle(page: Page, timeout: int) -> None:
-    """等待页面一段时间内都没有网络请求"""
+    """等待页面出现至少 `timeout` 毫秒的网络空闲"""
     start_time = perf_counter()
     while True:
         if perf_counter() - start_time > timeout / 1000:
             break
 
         try:
-            async with page.expect_request('**', timeout=timeout):
+            async with page.expect_request(lambda r: True, timeout=timeout):
                 pass
         except PlaywrightError:
-            break
+            try:
+                async with page.expect_request_finished(lambda r: True, timeout=timeout):
+                    pass
+            except PlaywrightError:
+                break
+            else:
+                start_time = perf_counter()
+                continue
         else:
             start_time = perf_counter()
-
-        try:
-            async with page.expect_request_finished(lambda r: True, timeout=timeout):
-                pass
-        except PlaywrightError:
-            break
-        else:
-            start_time = perf_counter()
+            continue
 
 
 def build_category_page_url(first_page_url: str, page: int) -> str:
