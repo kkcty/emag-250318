@@ -99,7 +99,7 @@ async def start_crawler(category: str, first_page_url: str, json_save_dir: Path)
         context.set_default_timeout(5 * MS1000)
         await abort_resources(
             context,
-            (ResourceType.IMAGE, ResourceType.MEDIA, ResourceType.FONT),
+            (ResourceType.IMAGE, ResourceType.MEDIA, ResourceType.FONT, ResourceType.STYLESHEET),
         )
 
         # 爬取第 1 页
