@@ -1,14 +1,12 @@
 from __future__ import annotations
 
-import asyncio
 from contextlib import asynccontextmanager
-import re
-from time import perf_counter
 from typing import TYPE_CHECKING
 
 from playwright.async_api import async_playwright
 from scraper_utils.exceptions.browser_exception import PlaywrightError
 
+from .logger import logger
 
 if TYPE_CHECKING:
     from typing import AsyncGenerator
@@ -16,48 +14,22 @@ if TYPE_CHECKING:
     from playwright.async_api import Browser, Page
 
 
-async def wait_for_networkidle(page: Page, timeout: int) -> None:
-    """等待页面出现至少 `timeout` 毫秒的网络空闲"""
-    start_time = perf_counter()
-    while True:
-        if perf_counter() - start_time > timeout / 1000:
-            break
-
-        try:
-            async with page.expect_request(lambda r: True, timeout=timeout):
-                pass
-        except PlaywrightError:
-            try:
-                async with page.expect_request_finished(lambda r: True, timeout=timeout):
-                    pass
-            except PlaywrightError:
-                break
-            else:
-                start_time = perf_counter()
-                continue
-        else:
-            start_time = perf_counter()
-            continue
-
-
-def build_category_page_url(first_page_url: str, page: int) -> str:
-    """根据类目页第一页的链接构造后续页链接"""
-    if page <= 1:
-        raise ValueError(f'page={page} 必须大于 1')
-    if re.search(r'/p\d+/c', first_page_url) is not None:
-        raise ValueError('请传入第一页的链接')
-
-    result = re.sub(r'(?<!\d)/c(?=\?|/|$)', f'/p{page}/c', first_page_url)
-    if result == first_page_url:
-        raise ValueError('正则表达式匹配失败')
-    return result
-
-
 @asynccontextmanager
-async def connect_cdp(cdp_url: str, timeout: int = 10_000, slow_mo: int = 0) -> AsyncGenerator[Browser]:
+async def connect_cdp(cdp: str = 'http://localhost:9222') -> AsyncGenerator[Browser]:
     """连接到 CDP"""
     async with async_playwright() as pwr:
-        browser = await pwr.chromium.connect_over_cdp(cdp_url, timeout=timeout, slow_mo=slow_mo)
+        while True:
+            logger.info(f'连接 CDP "{cdp}"')
+            try:
+                browser = await pwr.chromium.connect_over_cdp(cdp, timeout=1_000)
+            except PlaywrightError as pe:
+                logger.warning(f'连接 CDP "{cdp}" 时出错\n{pe}')
+                input('确认 CDP 启动后按 Enter 继续...')
+                continue
+            else:
+                browser.on('disconnected', lambda b: logger.info(f'已断开 CDP "{cdp}"'))
+                break
+
         try:
             yield browser
         finally:

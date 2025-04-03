@@ -1,0 +1,58 @@
+{
+  "title": "Produsul a fost adaugat in cos",
+  "type": "product",
+  "show_bf_banner": false,
+  "lineId": "122577792",
+  "EWId": 0,
+  "flags": {
+    "is_genius_exclusive": false
+  },
+  "is_genius_eligible": false,
+  "products_count": 12,
+  "datalayer": {
+    "event": "addToCart",
+    "zone_ref": "",
+    "ecommerce": {
+      "currencyCode": "RON",
+      "add": {
+        "products": [
+          {
+            "name": "LEGO\u00ae Creator 3 in 1 - Unicorn magic 31140, 145 piese",
+            "id": 122577792,
+            "doc_id": 51796890,
+            "price": 41.59,
+            "brand": "LEGO",
+            "brand_id": 756,
+            "category": "Jucarii, Copii \u0026 Bebe\/Jucarii \u0026 jocuri\/Seturi de constructie",
+            "category_id": 829,
+            "department": "Jucarii, Copii \u0026 Bebe",
+            "quantity": 1,
+            "status": "\u00cen stoc",
+            "vendor": "GRUP DZC",
+            "resealed": false,
+            "has_resealed": false,
+            "clearance": false,
+            "supercategory": "Toys",
+            "supercategory_id": 1521,
+            "pr_discount": 0
+          }
+        ]
+      }
+    }
+  },
+  "main": {
+    "name": "LEGO\u00ae Creator 3 in 1 - Unicorn magic 31140, 145 piese",
+    "image": "https:\/\/s13emagst.akamaized.net\/products\/51797\/51796890\/images\/res_dd79c1a3d3e428b274df7b10d2259f53.jpg?width=120\u0026height=120\u0026hash=F4A9DF7EF58A1F85FFA14C35CBCFB3DB",
+    "id": 122577792,
+    "doc_id": 51796890,
+    "price": 41.59,
+    "old_price": 41.59,
+    "vendor": {
+      "id": 15357,
+      "display_name": "GRUP DZC"
+    },
+    "is_adult_only": false
+  },
+  "special_discount_badge": 0,
+  "lazyLoad": false
+}

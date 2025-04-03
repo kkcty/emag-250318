@@ -1,0 +1,609 @@
+{
+    "reviews": {
+        "count": 1,
+        "first_item": {
+            "id": 11429847,
+            "content": "Imposibil de jucat!",
+            "user": {
+                "id": 832157,
+                "hash": "cc1847af83c344e9fcd6319af4409b9a832157032",
+                "name": "Andrei",
+                "user_avatar": {
+                    "initials": "A",
+                    "path": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg",
+                    "background_color": "#7fb243",
+                    "image": {
+                        "original": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg",
+                        "resized_images": [
+                            {
+                                "size": "40x40",
+                                "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg?width=40\u0026height=40\u0026hash=80A804E6E4E8F50378EEE6C5285DD971"
+                            },
+                            {
+                                "size": "54x54",
+                                "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg?width=78\u0026height=78\u0026hash=D4E56B9BEF60F8F2399A8A55211B3F8A"
+                            }
+                        ]
+                    }
+                },
+                "nickname": "Andrei",
+                "url": {
+                    "path": "\/product-feedback\/user-profile\/cc1847af83c344e9fcd6319af4409b9a832157032",
+                    "desktop_base": "https:\/\/www.emag.ro",
+                    "mobile_base": "https:\/\/www.emag.ro"
+                },
+                "is_official": false
+            },
+            "is_active": true,
+            "moderation_status": "moderated_accepted",
+            "created": "2024-12-29T09:15:57+02:00",
+            "modified": "2025-03-12T11:34:38+02:00",
+            "published": "2025-03-20T08:54:22+02:00",
+            "deleted": "2025-03-20T08:54:22+02:00",
+            "report_reason": "",
+            "edit_url": {
+                "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/review\/11429847\/edit",
+                "desktop_base": "https:\/\/www.emag.ro",
+                "mobile_base": "https:\/\/www.emag.ro"
+            },
+            "view_url": {
+                "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/review\/11429847",
+                "desktop_base": "https:\/\/www.emag.ro",
+                "mobile_base": "https:\/\/www.emag.ro"
+            },
+            "type": "REVIEW",
+            "title": "Nemultumit",
+            "product": {
+                "id": 1879471,
+                "name": "Joc Dobble",
+                "part_number_key": "D31YMYBBM",
+                "image": {
+                    "original": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg",
+                    "resized_images": [
+                        {
+                            "size": "80x80",
+                            "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=80\u0026height=80\u0026hash=751E7D9C6456BCC0611327DD1D01789C"
+                        },
+                        {
+                            "size": "130x130",
+                            "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=100\u0026height=100\u0026hash=C5F7D1D81A225DB927CD7AA90BCDF8F1"
+                        },
+                        {
+                            "size": "300x300",
+                            "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=300\u0026height=300\u0026hash=A3CCB3BD7847B1184B478E1616EC4929"
+                        },
+                        {
+                            "size": "450x450",
+                            "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=450\u0026height=450\u0026hash=08FA5943FB7BAACC5165FAA642BDBC47"
+                        }
+                    ]
+                },
+                "family_characteristics": {
+                    "name": "main",
+                    "characteristics": [
+                        {
+                            "id": 2527,
+                            "name": "Versiune",
+                            "value": {
+                                "id": 11440355,
+                                "value": "Dobble"
+                            },
+                            "order": 0
+                        }
+                    ]
+                },
+                "offer": {
+                    "id": 201077989,
+                    "price": {
+                        "current": 45.79,
+                        "is_min": false,
+                        "is_max": false,
+                        "legal": 0,
+                        "prefix": "Empty prefix",
+                        "suffix": "Empty suffix Lei",
+                        "is_visible": true,
+                        "discount": {
+                            "type": "value",
+                            "absolute": 34.2,
+                            "percent": 42,
+                            "is_special": false,
+                            "is_visible": false,
+                            "is_restricted_from_view": true,
+                            "is_max": false,
+                            "label": "Diferen\u021b\u0103:",
+                            "labeled_as_discount": false
+                        },
+                        "currency": {
+                            "id": 23,
+                            "name": {
+                                "default": "RON",
+                                "display": "Lei"
+                            }
+                        },
+                        "net": 38.48,
+                        "recommended_retail_price": {
+                            "amount": 79.99,
+                            "is_visible": true,
+                            "label": "PRP:",
+                            "tooltip": "Acesta este Pre\u021bul Recomandat de Produc\u0103tor. Pre\u021bul de v\u00e2nzare al produsului este afi\u0219at mai jos."
+                        },
+                        "lowest_price_30_days": {
+                            "amount": 0,
+                            "is_visible": false,
+                            "tooltip": "Pre\u021bul t\u0103iat este cel mai mic pre\u021b la care a fost v\u00e2ndut produsul \u00een ultimele 30 zile."
+                        },
+                        "initial": 45.79
+                    },
+                    "flags": {
+                        "is_main": true,
+                        "is_used": false,
+                        "is_sales": false,
+                        "is_active": true,
+                        "has_discount": true,
+                        "may_be_ordered": true,
+                        "has_ecredit": false,
+                        "has_bundles": false,
+                        "has_gifts": false,
+                        "has_bundle_first": false,
+                        "is_self_source": false,
+                        "has_warranty": false,
+                        "has_badges": false,
+                        "is_visible": true,
+                        "has_services": false,
+                        "has_buyback": false,
+                        "has_buyback_v2": false,
+                        "has_two_hour_delivery": false,
+                        "has_same_day_delivery": false,
+                        "has_three_hour_delivery": false,
+                        "has_free_delivery": false,
+                        "has_delivery_estimate": true,
+                        "has_pickup": false,
+                        "has_unified_badges": false,
+                        "has_loyalty_points": false,
+                        "has_banners": false,
+                        "is_fulfilment_by_emag": true,
+                        "show_legal_price": false,
+                        "has_free_return": true,
+                        "is_open_package": false,
+                        "is_bf": false,
+                        "has_campaign_badge": true,
+                        "has_visible_badge_border": false,
+                        "is_custom_discount": false,
+                        "has_unfair_price": false,
+                        "is_genius_eligible": true,
+                        "is_genius_exclusive": false,
+                        "genius_eligibility_type": 1,
+                        "has_courier_6h_delivery": false,
+                        "only_in_showroom": false,
+                        "is_adult_only": false
+                    }
+                },
+                "url": {
+                    "path": "\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/",
+                    "desktop_base": "https:\/\/www.emag.ro",
+                    "mobile_base": "https:\/\/www.emag.ro"
+                },
+                "sef_name": "joc-dobble-3558380023760"
+            },
+            "content_no_tags": "Imposibil de jucat!",
+            "moderated_by": "roxana.badea@emag.ro",
+            "rating": 1,
+            "is_bought": true,
+            "votes": 0,
+            "pictures": [
+                {
+                    "original": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f7130c7bf.png?width=1000\u0026height=1000\u0026hash=0C5609FA4C16564D461FF6C7EC97CA82",
+                    "resized_images": [
+                        {
+                            "size": "150x150",
+                            "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f7130c7bf.png?width=150\u0026height=150\u0026hash=F2026627BAB4C6CC11AEC59189D4D92F"
+                        }
+                    ]
+                },
+                {
+                    "original": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f71eeede4.png?width=1000\u0026height=1000\u0026hash=CFDD3E789F3EBBFA194CE8AFE8F20385",
+                    "resized_images": [
+                        {
+                            "size": "150x150",
+                            "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f71eeede4.png?width=150\u0026height=150\u0026hash=B65BB4A4F6CF41E181915E8273A366EE"
+                        }
+                    ]
+                }
+            ],
+            "current_customer_has_voted": false,
+            "brand_id": 0,
+            "category_id": 861,
+            "offer_id": 153627397,
+            "client_type": "Review cumparator eMAG",
+            "client_type_info": "Review-ul este publicat de catre un Cump\u0103r\u0103tor care a achizitionat Bunul\/Serviciul prin platforma eMAG.",
+            "product_doc_id": 1879471,
+            "product_family_id": 3214890,
+            "allow_comments_likes": true,
+            "has_media": false
+        },
+        "items": [
+            {
+                "id": 11429847,
+                "content": "Imposibil de jucat!",
+                "user": {
+                    "id": 832157,
+                    "hash": "cc1847af83c344e9fcd6319af4409b9a832157032",
+                    "name": "Andrei",
+                    "user_avatar": {
+                        "initials": "A",
+                        "path": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg",
+                        "background_color": "#7fb243",
+                        "image": {
+                            "original": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg",
+                            "resized_images": [
+                                {
+                                    "size": "40x40",
+                                    "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg?width=40\u0026height=40\u0026hash=80A804E6E4E8F50378EEE6C5285DD971"
+                                },
+                                {
+                                    "size": "54x54",
+                                    "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/avatars\/1480187454_20160127_111431.jpg?width=78\u0026height=78\u0026hash=D4E56B9BEF60F8F2399A8A55211B3F8A"
+                                }
+                            ]
+                        }
+                    },
+                    "nickname": "Andrei",
+                    "url": {
+                        "path": "\/product-feedback\/user-profile\/cc1847af83c344e9fcd6319af4409b9a832157032",
+                        "desktop_base": "https:\/\/www.emag.ro",
+                        "mobile_base": "https:\/\/www.emag.ro"
+                    },
+                    "is_official": false
+                },
+                "is_active": true,
+                "moderation_status": "moderated_accepted",
+                "created": "2024-12-29T09:15:57+02:00",
+                "modified": "2025-03-12T11:34:38+02:00",
+                "published": "2025-03-20T08:54:22+02:00",
+                "deleted": "2025-03-20T08:54:22+02:00",
+                "report_reason": "",
+                "edit_url": {
+                    "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/review\/11429847\/edit",
+                    "desktop_base": "https:\/\/www.emag.ro",
+                    "mobile_base": "https:\/\/www.emag.ro"
+                },
+                "view_url": {
+                    "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/review\/11429847",
+                    "desktop_base": "https:\/\/www.emag.ro",
+                    "mobile_base": "https:\/\/www.emag.ro"
+                },
+                "type": "REVIEW",
+                "title": "Nemultumit",
+                "product": {
+                    "id": 1879471,
+                    "name": "Joc Dobble",
+                    "part_number_key": "D31YMYBBM",
+                    "image": {
+                        "original": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg",
+                        "resized_images": [
+                            {
+                                "size": "80x80",
+                                "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=80\u0026height=80\u0026hash=751E7D9C6456BCC0611327DD1D01789C"
+                            },
+                            {
+                                "size": "130x130",
+                                "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=100\u0026height=100\u0026hash=C5F7D1D81A225DB927CD7AA90BCDF8F1"
+                            },
+                            {
+                                "size": "300x300",
+                                "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=300\u0026height=300\u0026hash=A3CCB3BD7847B1184B478E1616EC4929"
+                            },
+                            {
+                                "size": "450x450",
+                                "url": "https:\/\/s13emagst.akamaized.net\/products\/1880\/1879471\/images\/res_9626e094a3c6823da3f8c5b451463860.jpg?width=450\u0026height=450\u0026hash=08FA5943FB7BAACC5165FAA642BDBC47"
+                            }
+                        ]
+                    },
+                    "family_characteristics": {
+                        "name": "main",
+                        "characteristics": [
+                            {
+                                "id": 2527,
+                                "name": "Versiune",
+                                "value": {
+                                    "id": 11440355,
+                                    "value": "Dobble"
+                                },
+                                "order": 0
+                            }
+                        ]
+                    },
+                    "offer": {
+                        "id": 201077989,
+                        "price": {
+                            "current": 45.79,
+                            "is_min": false,
+                            "is_max": false,
+                            "legal": 0,
+                            "prefix": "Empty prefix",
+                            "suffix": "Empty suffix Lei",
+                            "is_visible": true,
+                            "discount": {
+                                "type": "value",
+                                "absolute": 34.2,
+                                "percent": 42,
+                                "is_special": false,
+                                "is_visible": false,
+                                "is_restricted_from_view": true,
+                                "is_max": false,
+                                "label": "Diferen\u021b\u0103:",
+                                "labeled_as_discount": false
+                            },
+                            "currency": {
+                                "id": 23,
+                                "name": {
+                                    "default": "RON",
+                                    "display": "Lei"
+                                }
+                            },
+                            "net": 38.48,
+                            "recommended_retail_price": {
+                                "amount": 79.99,
+                                "is_visible": true,
+                                "label": "PRP:",
+                                "tooltip": "Acesta este Pre\u021bul Recomandat de Produc\u0103tor. Pre\u021bul de v\u00e2nzare al produsului este afi\u0219at mai jos."
+                            },
+                            "lowest_price_30_days": {
+                                "amount": 0,
+                                "is_visible": false,
+                                "tooltip": "Pre\u021bul t\u0103iat este cel mai mic pre\u021b la care a fost v\u00e2ndut produsul \u00een ultimele 30 zile."
+                            },
+                            "initial": 45.79
+                        },
+                        "flags": {
+                            "is_main": true,
+                            "is_used": false,
+                            "is_sales": false,
+                            "is_active": true,
+                            "has_discount": true,
+                            "may_be_ordered": true,
+                            "has_ecredit": false,
+                            "has_bundles": false,
+                            "has_gifts": false,
+                            "has_bundle_first": false,
+                            "is_self_source": false,
+                            "has_warranty": false,
+                            "has_badges": false,
+                            "is_visible": true,
+                            "has_services": false,
+                            "has_buyback": false,
+                            "has_buyback_v2": false,
+                            "has_two_hour_delivery": false,
+                            "has_same_day_delivery": false,
+                            "has_three_hour_delivery": false,
+                            "has_free_delivery": false,
+                            "has_delivery_estimate": true,
+                            "has_pickup": false,
+                            "has_unified_badges": false,
+                            "has_loyalty_points": false,
+                            "has_banners": false,
+                            "is_fulfilment_by_emag": true,
+                            "show_legal_price": false,
+                            "has_free_return": true,
+                            "is_open_package": false,
+                            "is_bf": false,
+                            "has_campaign_badge": true,
+                            "has_visible_badge_border": false,
+                            "is_custom_discount": false,
+                            "has_unfair_price": false,
+                            "is_genius_eligible": true,
+                            "is_genius_exclusive": false,
+                            "genius_eligibility_type": 1,
+                            "has_courier_6h_delivery": false,
+                            "only_in_showroom": false,
+                            "is_adult_only": false
+                        }
+                    },
+                    "url": {
+                        "path": "\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/",
+                        "desktop_base": "https:\/\/www.emag.ro",
+                        "mobile_base": "https:\/\/www.emag.ro"
+                    },
+                    "sef_name": "joc-dobble-3558380023760"
+                },
+                "content_no_tags": "Imposibil de jucat!",
+                "moderated_by": "roxana.badea@emag.ro",
+                "rating": 1,
+                "is_bought": true,
+                "votes": 0,
+                "pictures": [
+                    {
+                        "original": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f7130c7bf.png?width=1000\u0026height=1000\u0026hash=0C5609FA4C16564D461FF6C7EC97CA82",
+                        "resized_images": [
+                            {
+                                "size": "150x150",
+                                "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f7130c7bf.png?width=150\u0026height=150\u0026hash=F2026627BAB4C6CC11AEC59189D4D92F"
+                            }
+                        ]
+                    },
+                    {
+                        "original": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f71eeede4.png?width=1000\u0026height=1000\u0026hash=CFDD3E789F3EBBFA194CE8AFE8F20385",
+                        "resized_images": [
+                            {
+                                "size": "150x150",
+                                "url": "https:\/\/s13emagst.akamaized.net\/layout\/ro\/images\/feedback\/6770f71eeede4.png?width=150\u0026height=150\u0026hash=B65BB4A4F6CF41E181915E8273A366EE"
+                            }
+                        ]
+                    }
+                ],
+                "current_customer_has_voted": false,
+                "brand_id": 0,
+                "category_id": 861,
+                "offer_id": 153627397,
+                "client_type": "Review cumparator eMAG",
+                "client_type_info": "Review-ul este publicat de catre un Cump\u0103r\u0103tor care a achizitionat Bunul\/Serviciul prin platforma eMAG.",
+                "product_doc_id": 1879471,
+                "product_family_id": 3214890,
+                "allow_comments_likes": true,
+                "has_media": false
+            }
+        ],
+        "add_url": {
+            "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/review\/add",
+            "desktop_base": "https:\/\/www.emag.ro",
+            "mobile_base": "https:\/\/www.emag.ro"
+        },
+        "view_url": {
+            "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews",
+            "desktop_base": "https:\/\/www.emag.ro",
+            "mobile_base": "https:\/\/www.emag.ro"
+        },
+        "family_id": 3214890,
+        "sort_options": [
+            {
+                "name": "created",
+                "direction": "desc",
+                "placeholder": "Cele mai noi",
+                "isSelected": true,
+                "isDefault": true
+            },
+            {
+                "name": "votes",
+                "direction": "desc",
+                "placeholder": "Cele mai populare",
+                "isSelected": false,
+                "isDefault": false
+            }
+        ],
+        "positive_rating_percentage": 0,
+        "bought_count": 0,
+        "bought_count_filter": "Doar reviews cumparatori eMAG",
+        "bought_count_message": "Reviews cumparatori eMAG",
+        "positive_rating_percentage_message": "clienti eMAG recomanda produsul"
+    },
+    "meta": {
+        "default": {
+            "title": {
+                "id": 6625,
+                "text": "eMAG.ro - C\u0103utarea nu se opre\u0219te niciodat\u0103"
+            },
+            "description": {
+                "id": 6626,
+                "text": "Ai libertatea sa alegi din milioane de produse IT, electronice si electrocasnice, gadgeturi, jucarii, imbracaminte si incaltaminte la Super Pret sau cu plata in rate. Livrare rapida la easybox, Instant Money Back la retur, garantia produselor."
+            },
+            "keywords": {
+                "id": 0,
+                "text": "emag.ro, c\u0103utarea, opre\u0219te, niciodat\u0103"
+            },
+            "canonical": {
+                "id": 0,
+                "text": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list",
+                "url": {
+                    "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list",
+                    "desktop_base": "https:\/\/www.emag.ro",
+                    "mobile_base": "https:\/\/www.emag.ro"
+                }
+            },
+            "deeplinks": {
+                "property": [
+                    {
+                        "type": "al:ios:url",
+                        "text": "emag:\/\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    },
+                    {
+                        "type": "al:ios:app_store_id",
+                        "text": "935571974"
+                    },
+                    {
+                        "type": "al:ios:app_name",
+                        "text": "eMAG"
+                    },
+                    {
+                        "type": "al:android:url",
+                        "text": "emag:\/\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    },
+                    {
+                        "type": "al:android:app_name",
+                        "text": "eMAG"
+                    },
+                    {
+                        "type": "al:android:package",
+                        "text": "ro.emag.android"
+                    }
+                ],
+                "alternate": [
+                    {
+                        "type": "0",
+                        "text": "android-app:\/\/ro.emag.android\/emag\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    },
+                    {
+                        "type": "1",
+                        "text": "ios-app:\/\/935571974\/emag\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    }
+                ]
+            }
+        },
+        "custom": {
+            "title": {
+                "id": 6625,
+                "text": "eMAG.ro - C\u0103utarea nu se opre\u0219te niciodat\u0103"
+            },
+            "description": {
+                "id": 6626,
+                "text": "Ai libertatea sa alegi din milioane de produse IT, electronice si electrocasnice, gadgeturi, jucarii, imbracaminte si incaltaminte la Super Pret sau cu plata in rate. Livrare rapida la easybox, Instant Money Back la retur, garantia produselor."
+            },
+            "keywords": {
+                "id": 0,
+                "text": "emag.ro, c\u0103utarea, opre\u0219te, niciodat\u0103"
+            },
+            "canonical": {
+                "id": 0,
+                "text": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list",
+                "url": {
+                    "path": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list",
+                    "desktop_base": "https:\/\/www.emag.ro",
+                    "mobile_base": "https:\/\/www.emag.ro"
+                }
+            },
+            "deeplinks": {
+                "property": [
+                    {
+                        "type": "al:ios:url",
+                        "text": "emag:\/\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    },
+                    {
+                        "type": "al:ios:app_store_id",
+                        "text": "935571974"
+                    },
+                    {
+                        "type": "al:ios:app_name",
+                        "text": "eMAG"
+                    },
+                    {
+                        "type": "al:android:url",
+                        "text": "emag:\/\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    },
+                    {
+                        "type": "al:android:app_name",
+                        "text": "eMAG"
+                    },
+                    {
+                        "type": "al:android:package",
+                        "text": "ro.emag.android"
+                    }
+                ],
+                "alternate": [
+                    {
+                        "type": "0",
+                        "text": "android-app:\/\/ro.emag.android\/emag\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    },
+                    {
+                        "type": "1",
+                        "text": "ios-app:\/\/935571974\/emag\/webview?url=\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list"
+                    }
+                ]
+            }
+        }
+    },
+    "url": "\/product-feedback\/joc-dobble-3558380023760\/pd\/D31YMYBBM\/reviews\/list",
+    "response": {
+        "code": 200
+    },
+    "pageType_google": "other",
+    "page_type": "list_review"
+}

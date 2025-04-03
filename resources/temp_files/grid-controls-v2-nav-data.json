@@ -1,0 +1,96 @@
+{
+    "siblings": {
+        "items": [
+            {
+                "id": 331,
+                "parent_id": 327,
+                "sef_name": "casti-protectie-skate",
+                "parent_sef_name": "role-trotinete-si-skateboard",
+                "type": "category",
+                "name": "Casti protectie",
+                "url": "/casti-protectie-sport/filter/sport-f7631,patinaj-cu-role-v-4631857/sport-f7631,skateboarding-v-4467391/c?nav_id=331",
+                "image": "https://s13emagst.akamaized.net/products/33870/33869860/images/res_fd83dd183f59507038805674f2834572.jpg?width=768&height=768&hash=CDB87E9297D01CF4BB14BD5F0AAF925A",
+                "deeplink": "emag://search?filters[subdepartment]=accesorii-sportive&filters[department]=sport-activitati-aer-liber&filters[7631][]=-4631857&filters[7631][]=-4467391&filters[category]=1786&nav_id=331",
+                "selected": false,
+                "no_follow": false,
+                "category_id": 1786,
+                "is_adult_only": false
+            },
+            {
+                "id": 330,
+                "parent_id": 327,
+                "sef_name": "skateboard-sport",
+                "parent_sef_name": "role-trotinete-si-skateboard",
+                "type": "category",
+                "name": "Skateboard",
+                "url": "/skateboard/c?nav_id=330",
+                "image": "https://s13emagst.akamaized.net/products/33544/33543271/images/res_3a5e2bba6147c0fa0dada1907f53c5e0.jpg?width=768&height=768&hash=C73F72AD7C961BF4F9A7EA4E235A1A81",
+                "deeplink": "emag://search?category_id=2151&nav_id=330",
+                "selected": false,
+                "no_follow": false,
+                "category_id": 2151,
+                "is_adult_only": false
+            },
+            {
+                "id": 2588,
+                "parent_id": 327,
+                "sef_name": "trotinete-sport",
+                "parent_sef_name": "role-trotinete-si-skateboard",
+                "type": "category",
+                "name": "Trotinete",
+                "url": "/trotinete/c?nav_id=329",
+                "image": "https://s13emagst.akamaized.net/products/28703/28702450/images/res_b524a558ed919f0778f8dafc33f75540.jpg?width=768&height=768&hash=C7E1A07EFAA606D771108E75EA4392B9",
+                "deeplink": "emag://search?category_id=2588&nav_id=329",
+                "selected": true,
+                "no_follow": false,
+                "category_id": 2588,
+                "is_adult_only": false
+            },
+            {
+                "id": 332,
+                "parent_id": 327,
+                "sef_name": "aparatori-si-protectii-corporale-skate",
+                "parent_sef_name": "role-trotinete-si-skateboard",
+                "type": "category",
+                "name": "Aparatori si protectii corporale",
+                "url": "/aparatori-protectii-corporale/filter/sport-f7631,skateboarding-v-4467391/c?nav_id=332",
+                "image": "https://s13emagst.akamaized.net/products/32544/32543545/images/res_29a4213bad1eac9f62bf4e65fde0f258.jpg?width=768&height=768&hash=5AC3C9DE1FECC2E4B33E53809700DD49",
+                "deeplink": "emag://search?filters[subdepartment]=accesorii-sportive&filters[department]=sport-activitati-aer-liber&filters[7631][]=-4467391&filters[category]=1712&nav_id=332",
+                "selected": false,
+                "no_follow": false,
+                "category_id": 1712,
+                "is_adult_only": false
+            },
+            {
+                "id": 447,
+                "parent_id": 327,
+                "sef_name": "rucsacuri-skateboarding",
+                "parent_sef_name": "role-trotinete-si-skateboard",
+                "type": "category",
+                "name": "Rucsacuri skateboarding",
+                "url": "/rucsacuri/filter/sport-f7631,skateboarding-v-4467391/c?nav_id=447",
+                "image": "https://s13emagst.akamaized.net/products/32470/32469491/images/res_004c0cc093cd127064a49514fc907990.jpg?width=768&height=768&hash=641EC98C5404E88F7302A24313468AA6",
+                "deeplink": "emag://search?filters[subdepartment]=articole-voiaj&filters[department]=sport-activitati-aer-liber&filters[7631][]=-4467391&filters[category]=1680&nav_id=447",
+                "selected": false,
+                "no_follow": false,
+                "category_id": 1680,
+                "is_adult_only": false
+            },
+            {
+                "id": 328,
+                "parent_id": 327,
+                "sef_name": "role-sport",
+                "parent_sef_name": "role-trotinete-si-skateboard",
+                "type": "category",
+                "name": "Role",
+                "url": "/role/c?nav_id=328",
+                "image": "https://s13emagst.akamaized.net/products/21816/21815561/images/res_ac8c00dd0976272b0925862d532a416c.jpg?width=768&height=768&hash=144A6A53228443426E9ACA83940BA67A",
+                "deeplink": "emag://search?category_id=2150&nav_id=328",
+                "selected": false,
+                "no_follow": false,
+                "category_id": 2150,
+                "is_adult_only": false
+            }
+        ]
+    }
+}
