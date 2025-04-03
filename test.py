@@ -5,12 +5,8 @@ from __future__ import annotations
 import asyncio
 from typing import TYPE_CHECKING
 
-from scraper_utils.utils.json_util import write_json_async
-
-from emag_crawler.handlers.category import goto_pagination
-from emag_crawler.parsers.category import parse_search_by_url_response
 from emag_crawler.utils import connect_cdp
-from emag_crawler.worker.category import start_crawler
+from emag_crawler.worker.category import crawl_category
 
 
 if TYPE_CHECKING:
@@ -31,7 +27,7 @@ async def main():
         #     context, 'https://www.emag.ro/memorie-externa-telefon-mobil/c', logger
         # )
 
-        await start_crawler(browser, 'https://www.emag.ro/seturi-constructie/c')
+        await crawl_category(browser, 'https://www.emag.ro/seturi-constructie/c')
 
         input('...')
 

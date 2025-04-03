@@ -4,8 +4,6 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from ..logger import logger
-
 if TYPE_CHECKING:
     from typing import Any
 
@@ -62,9 +60,18 @@ def parse_search_by_url_response(response_json: Any) -> dict[str, Any]:
         item_url = str(f'{item_url_dict['desktop_base']}{item_url_dict['path']}')  # 产品详情页链接
 
         item_offer_dict: dict[str, Any] = item['offer']
-        item_offer_id = str(item_offer_dict['id'])  # 产品 offer-id
+        item_offer_id = str(item_offer_dict['id'])  # 产品 offer-id 或 data-id
+
         item_offer_price_dict: dict[str, Any] = item_offer_dict['price']
-        # TODO offer-id、价格、Top Favorite 还没做
+        item_current_price = float(item_offer_price_dict['current'])  # 当前产品价格
+        item_recommended_price = float(
+            item_offer_price_dict['recommended_retail_price']['amount']
+        )  # 制造商推荐价格
+
+        item_offer_unified_badges_list: list[dict[str, Any]] = item_offer_dict.get('unified_badges', list())
+        item_top_favorite = any(
+            _['label'] == 'Top Favorite' for _ in item_offer_unified_badges_list
+        )  # Top Favorite 标志
 
         items.append(
             {
@@ -76,6 +83,10 @@ def parse_search_by_url_response(response_json: Any) -> dict[str, Any]:
                 'rating': item_rating,
                 'reviews_count': item_reviews_count,
                 'url': item_url,
+                'offer_id': item_offer_id,
+                'price': item_current_price,
+                'recommended_price': item_recommended_price,
+                'top_favorite': item_top_favorite,
             }
         )
 

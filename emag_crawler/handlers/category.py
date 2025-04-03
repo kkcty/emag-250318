@@ -6,8 +6,8 @@ import re
 from asyncio import CancelledError
 from typing import TYPE_CHECKING
 
+from playwright.async_api import Error as PlaywrightError
 from scraper_utils.constants.time_constant import MS1000
-from scraper_utils.exceptions.browser_exception import PlaywrightError
 
 from ..logger import logger
 

@@ -60,3 +60,8 @@ document.addEventListener('DOMContentLoaded', hideCookieBanner);
 // 每500ms检查一次（应对动态加载内容）
 itv = setInterval(hideCookieBanner, 500);"""
     )
+
+
+def build_detail_url(pnk: str) -> str:
+    """根据 pnk 构造详情页链接"""
+    return f'https://www.emag.ro/-/pd/{pnk}'

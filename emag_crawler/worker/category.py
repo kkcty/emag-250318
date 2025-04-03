@@ -5,18 +5,12 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from pathlib import Path
-from scraper_utils.exceptions.browser_exception import PlaywrightError
+from playwright.async_api import Error as PlaywrightError
 from scraper_utils.utils.browser_util import ResourceType, abort_resources
 from scraper_utils.utils.json_util import write_json_async
 from scraper_utils.utils.time_util import now_str
 
-from ..handlers.category import (
-    is_first_page,
-    is_last_page,
-    is_pagination_gotoable,
-    goto_first_page,
-    goto_pagination,
-)
+from ..handlers.category import is_first_page, is_last_page, is_pagination_gotoable, goto_pagination
 from ..logger import logger
 from ..parsers.category import parse_search_by_url_response
 
@@ -29,17 +23,23 @@ if TYPE_CHECKING:
 cwd = Path.cwd()
 
 
-async def goto_category(context: BrowserContext, url: str) -> Page:
+async def goto_category_page(context: BrowserContext, url: str) -> Page:
     """打开类目页"""
     page = await context.new_page()
+
     while True:
         logger.info(f'访问 "{url}"')
         try:
-            response = await page.goto(url, wait_until='networkidle')
+            response = await page.goto(url)
         except PlaywrightError as pe:
             logger.warning(f'访问 "{url}" 时出错，即将重试\n{pe}')
+            continue
         else:
-            if response is None or response.status == 511:
+            if response is None:
+                logger.error(f'访问 "{url}" 时响应为空')
+                input('响应体为空，按 Enter 继续...')
+                continue
+            if response.status == 511:
                 logger.warning(f'访问 "{url}" 时触发验证')
                 input('触发验证，验证通过后按 Enter 继续...')
                 continue
@@ -48,7 +48,7 @@ async def goto_category(context: BrowserContext, url: str) -> Page:
     return page
 
 
-async def start_crawler(browser: Browser, url: str):
+async def crawl_category(browser: Browser, url: str):
     """开始爬取一个类目"""
     context = await browser.new_context(no_viewport=True)
 
@@ -63,7 +63,7 @@ async def start_crawler(browser: Browser, url: str):
         ),
     )
 
-    page = await goto_category(context, url)
+    page = await goto_category_page(context, url)
 
     results: list[dict[str, Any]] = list()
     category_id = '-'
