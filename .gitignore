@@ -1,6 +1,7 @@
 # vscode
 /.vscode
 /*.code-workspace
+/.editorconfig
 
 # python
 __pycache__/
